@@ -81,8 +81,8 @@ function kevatkartano_setup() {
 	 */
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
 }
-endif; // _s_setup
-add_action( 'after_setup_theme', '_s_setup' );
+endif; // kevatkartano_setup
+add_action( 'after_setup_theme', 'kevatkartano_setup' );
 
 /**
  * Setup the WordPress core custom background feature.
