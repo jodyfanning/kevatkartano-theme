@@ -2,8 +2,8 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package _s
- * @since _s 1.0
+ * @package Kevätkartano
+ * @since Kevätkartano 1.0
  */
 
 get_header(); ?>
@@ -15,7 +15,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php _s_content_nav( 'nav-below' ); ?>
+			<?php kevatkartano_content_nav( 'nav-below' ); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template
@@ -28,5 +28,4 @@ get_header(); ?>
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

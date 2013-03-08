@@ -2,8 +2,8 @@
 /**
  * The template used for displaying page content in page.php
  *
- * @package _s
- * @since _s 1.0
+ * @package Kevätkartano
+ * @since Kevätkartano 1.0
  */
 ?>
 
@@ -14,7 +14,7 @@
 
 	<div class="entry-content">
 		<?php the_content(); ?>
-		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', '_s' ), 'after' => '</div>' ) ); ?>
+		<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'kevatkartano' ), 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->
-	<?php edit_post_link( __( 'Edit', '_s' ), '<footer class="entry-meta"><span class="edit-link">', '</span></footer>' ); ?>
+	<?php edit_post_link( __( 'Edit', 'kevatkartano' ), '<footer class="entry-meta"><span class="edit-link">', '</span></footer>' ); ?>
 </article><!-- #post-## -->
