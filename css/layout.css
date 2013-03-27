@@ -43,6 +43,14 @@ Pixels      Ems     Ems @ 16    % of 13
     clip: rect(1px, 1px, 1px, 1px);
 }
 
+/* -------------------------------------------------------- */
+/* Base colours                                             */
+/* http://www.colourlovers.com/palette/1158428/Birch_Lymph  */
+/* TODO: Change to these                                     */
+/* -------------------------------------------------------- */
+
+
+
 /* -------------------------------- */
 /* Default and medium width layouts */
 /* -------------------------------- */
@@ -212,6 +220,16 @@ object {
 
 body {
     background: none repeat scroll 0 0 #F1F7E9;
+}
+a {
+    color: #9D4A6D;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: purple;
 }
 .site {
     overflow: hidden;

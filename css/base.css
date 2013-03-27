@@ -153,18 +153,6 @@ th {
     font-weight: 600;
 }
 
-/* Links */
-a {
-    color: #9D4A6D;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-a:visited {
-    color: purple;
-}
-
 /* Embedded alignment */
 .alignleft {
     display: inline;
