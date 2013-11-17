@@ -281,6 +281,10 @@ a:visited {
     padding: 0 1.618rem;
     width: auto;
 }
+.comments-area {
+    padding: 0 1.618rem;
+    width: auto;
+}
 .site-secondary {
     float:right;
     width: 30%;
@@ -288,7 +292,6 @@ a:visited {
 .menu-primary-container {
     margin-bottom: 1.618em;
 }
-
 /* Smaller screens */
 @media screen and (max-width: 620px) {
     html {
@@ -337,6 +340,10 @@ a:visited {
         margin: 0 1em 1em 0;
     }
     .navigation-post {
+        padding: 0 0.79rem;
+        width: auto;
+    }
+    .comments-area {
         padding: 0 0.79rem;
         width: auto;
     }
