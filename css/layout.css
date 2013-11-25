@@ -45,11 +45,8 @@ Pixels      Ems     Ems @ 16    % of 13
 
 /* -------------------------------------------------------- */
 /* Base colours                                             */
-/* http://www.colourlovers.com/palette/1158428/Birch_Lymph  */
-/* TODO: Change to these                                     */
+/* http://colorschemedesigner.com/#5342whWs0g0g0            */
 /* -------------------------------------------------------- */
-
-
 
 /* -------------------------------- */
 /* Default and medium width layouts */
@@ -215,25 +212,25 @@ object {
     display: block;
 }
 
-/* =Kevatkartano
+/* Kevatkartano
 ----------------------------------------------- */
 
 body {
-    background: none repeat scroll 0 0 #F1F7E9;
+    background: none repeat scroll 0 0 #F5FBE5;
 }
 a {
-    color: #9D4A6D;
+    color: #495E0E;
     text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
 }
 a:visited {
-    color: purple;
+    color: #495E0E;
 }
 .site {
     overflow: hidden;
-    border-top: 0.488rem solid purple;
+    border-top: 0.488rem solid #495E0E;
 }
 .site-header {
     float: right;
@@ -248,15 +245,8 @@ a:visited {
     font-size: 0.79rem;
 }
 .page-header {
-    margin-bottom: 1.618rem;
-    padding: 1.618rem;
-    border: 1px solid gray;
-    background-image: url("../bkg.jpg");
-    background-position: center center;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    color: #FAFAFA;
-    text-shadow: 2px 2px 2px #4F4F4F;
+    padding: 0 1.618rem;
+    color: #85376F;
 }
 .page-title {
     font-size: 68px;
@@ -265,17 +255,24 @@ a:visited {
 .page-header .taxonomy-description {
     font-weight: 400;
 }
+.content-area {
+    float: left;
+    margin: 0 1.618rem 1.618rem;
+    width: 60%;
+}
 .post {
     padding: 0 1.618rem 0;
 }
-.content-area {
-    float: left;
-    margin: 1.618rem;
-    width: 60%;
-}
-.post > .entry-meta {
+.post .entry-footer {
     padding-bottom: 1.618rem;
     border-bottom: 2px dotted #B5ADB1;
+}
+.entry-title {
+    background-color: #495E0E;
+    color: #F5FBE5;
+}
+.entry-title > a {
+    color: #F5FBE5;
 }
 .navigation-post {
     padding: 0 1.618rem;
@@ -301,6 +298,7 @@ a:visited {
     .site-header {
         float: none;
         margin: 0.79rem;
+        padding: 0.79rem;
         width: auto;
     }
     .page-header {

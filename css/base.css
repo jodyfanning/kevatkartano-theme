@@ -58,16 +58,12 @@ textarea {
 /* Text elements */
 h1,
 h2,
-h3{
-    font-family: 'Playfair Display', Georgia, serif;
-    font-weight: 700;
-    font-style: italic;
-}
+h3,
 h4,
 h5,
 h6 {
-    font-weight: 400;
-    font-style: italic;
+    font-family: 'Open Sans', Verdana, Helvetica, Arial, sans-serif;
+    font-weight: 300;
 }
 p {
     margin-bottom: 1.618em;
@@ -79,7 +75,7 @@ ol {
     list-style: decimal outside;
 }
 dt {
-    font-weight: 600;
+    font-weight: 400;
 }
 dd {
     margin: 0 1.618em 1.618em;
@@ -228,7 +224,7 @@ th {
     font-size: 0.79rem;
 }
 .entry-header {
-    margin-bottom: 1rem;
+    margin: 1.618rem 0;
 }
 .site-content .post {
     margin-bottom: 1.618rem;
