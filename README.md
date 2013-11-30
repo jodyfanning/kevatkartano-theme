@@ -6,6 +6,9 @@ I'm a WordPress theme based on `_s`, or `underscores`.
 Changes
 ------------------
 
+Version 1.2.1
+* Minor colour changes
+
 Version 1.2
 * Colour scheme changes
 * Remove heading font

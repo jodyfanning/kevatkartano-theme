@@ -263,13 +263,17 @@ a:visited {
 .post {
     padding: 0 1.618rem 0;
 }
-.post .entry-footer {
-    padding-bottom: 1.618rem;
+.entry-footer {
     border-bottom: 2px dotted #B5ADB1;
+    padding-bottom: 1.618rem;
+    font-size: 13px;
+    font-size: 0.79rem;
 }
 .entry-title {
     background-color: #495E0E;
     color: #F5FBE5;
+    border-left: 0.3em solid #85376F;
+    padding-left: 0.3em;
 }
 .entry-title > a {
     color: #F5FBE5;
@@ -305,6 +309,7 @@ a:visited {
         padding: 0.79rem;
     }
     .page-title {
+        font-size: 42px
         font-size: 2.618rem;
     }
     .menu-primary-container .menu-item {
@@ -348,8 +353,7 @@ a:visited {
 }
 
 /* Bigger screens */
-
- @media (min-width: 1360px) {
+@media (min-width: 1360px) {
     .site-header {
         float: right;
         margin-top: 0.79em;
