@@ -189,6 +189,8 @@ th {
 .site-title {
     font-size: 33px;
     font-size: 2.167rem;
+    font-weight: 400;
+    font-style: italic;
 }
 
 /* Basic main navigation format */
@@ -231,5 +233,5 @@ th {
     margin-bottom: 1.618rem;
 }
 .widget-title {
-    font-weight: bold;
+    font-weight: 400;
 }
