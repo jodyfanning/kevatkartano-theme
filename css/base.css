@@ -202,7 +202,8 @@ th {
 }
 
 /* Basic main sidebar format */
-.primary-sidebar ul {
+.primary-sidebar ul,
+.widget-area ul {
     list-style: none outside none; 
 }
 .primary-sidebar .post-date {
@@ -228,4 +229,7 @@ th {
 }
 .site-content .post {
     margin-bottom: 1.618rem;
+}
+.widget-title {
+    font-weight: bold;
 }

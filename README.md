@@ -6,6 +6,9 @@ I'm a WordPress theme based on `_s`, or `underscores`.
 Changes
 ------------------
 
+Version 1.2.2
+* Minor tweaks since FriendFeed disappeared
+
 Version 1.2.1
 * Minor colour changes
 
