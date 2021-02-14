@@ -18,7 +18,7 @@
 			<?php do_action( 'kevatkartano_credits' ); ?>
 			<a href="http://wordpress.org/" title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'kevatkartano' ); ?>" rel="generator"><?php printf( __( 'Proudly powered by %s', 'kevatkartano' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'kevatkartano' ), 'Kevätkartano', '<a href="http://www.kevatkartano.com" rel="designer">Jody Fanning</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'kevatkartano' ), 'Kevätkartano', '<a href="https://www.kevatkartano.com" rel="designer">Jody Fanning</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
